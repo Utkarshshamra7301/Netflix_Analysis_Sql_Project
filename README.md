@@ -6,18 +6,18 @@
 ### Database Schema
 - The dataset is stored in a table called netflix with the following schema:
 
-`show_id:` Unique identifier for each show.
-`type:` Indicates whether the content is a movie or TV show.
-`title:` Title of the content.
-`director:` Director of the content (if available).
-`casts:` List of actors featured in the content.
-`country:` Country where the content was produced.
-`date_added:` The date when the content was added to Netflix.
-`release_year:` Year when the content was released.
-`rating:` Content rating (e.g., PG, R).
-`duration`: Duration of the content (for TV shows, it shows the number of seasons).
-`listed_in:` Genre or categories in which the content is listed.
-`description:` A short summary of the content.
+`show_id:` Unique identifier for each show.<br>
+`type:` Indicates whether the content is a movie or TV show.<br>
+`title:` Title of the content.<br>
+`director:` Director of the content (if available).<br>
+`casts:` List of actors featured in the content.<br>
+`country:` Country where the content was produced.<br>
+`date_added:` The date when the content was added to Netflix.<br>
+`release_year:` Year when the content was released.<br>
+`rating:` Content rating (e.g., PG, R).<br>
+`duration`: Duration of the content (for TV shows, it shows the number of seasons).<br>
+`listed_in:` Genre or categories in which the content is listed.<br>
+`description:` A short summary of the content.<br>
 ### Key SQL Queries
 - Show All Data: Retrieve all the rows from the Netflix table.
 - Count Total Content: Find out the total number of entries in the dataset.
